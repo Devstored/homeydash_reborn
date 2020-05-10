@@ -1,0 +1,77 @@
+{
+    "themeInfo": {
+        "autor": "Dino",
+        "homeyForumProfil": "https://community.athom.com/u/DinoRayn",
+        "createDate": "05/09/2020",
+        "version": "1.0",
+        "dashVersionMin": "1.0"
+        },
+    "objects": {
+        "action": {
+            "backgroundColor": "white",
+            "textColor": "black",
+            "inactive_backgroundColor": "white",
+            "inactive_textColor": "black"
+                
+        },
+        "alarm": {
+            "backgroundColor": "white",
+            "textColor": "black",
+            "inactive_backgroundColor": "white",
+            "inactive_textColor": "black"
+        },
+        "flow": {
+            "backgroundColor": "rgba(229, 255, 0, 0.25)",
+            "textColor": "white"
+        }
+    },
+    "background": {
+
+        "gradientColors": {
+            "color1": "rgba(51,204,204,0.7)",
+            "color2": "rgba(33, 114, 255, 0.9)",
+            "color3": "rgba(255, 242, 0,0.8)"
+        },
+        "background_inprogress": "",
+        "interval": 3600000
+        },
+    "header_icons": {
+        "logo": {
+            "name": "logo.png",
+            "color": "white"
+        },
+        "settings": {
+            "name": "settings.svg",
+            "color": "white"
+        },
+        "theme": {
+            "name": "theme.svg",
+            "color": "white"
+        },
+        "information": {
+            "name": "information.svg",
+            "color": "white"
+        },
+        "notification": {
+            "name": "notification.svg",
+            "color": "white"
+        },
+        "battery": {
+            "name": "battery.svg",
+            "color": "white"
+        },
+        "new_version": {
+            "name": "new_version.svg",
+            "color": "white"
+        }
+    },
+    "audios": {
+        "open": "starwars.mp3",
+        "clic": "clic.mp3"
+    },
+
+    "font": "Roboto",
+    "all_text_color": "white"
+
+
+}
