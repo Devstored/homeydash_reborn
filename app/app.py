@@ -144,6 +144,13 @@ def theme_remove():
       path = relative_path + '/static/themes/' + theme
       try:
         shutil.rmtree(path, ignore_errors=True)
+
+        with open('static/settings/settings.json', 'r+') as f:
+            data = json.load(f)
+            data['theme'] = "default"
+            f.seek(0)
+            json.dump(data, f, indent=4)
+            f.truncate()
         return jsonify(status=True)
       except Exception as e:
         return jsonify(status=False)

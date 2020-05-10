@@ -255,8 +255,8 @@ window.addEventListener('load', function () {
             $icon_prev_new_version.style.webkitMaskImage = "url(./static/themes/" + newtheme_select + "/header_icons/" + themedata.header_icons.new_version.name + ")";
             $icon_prev_new_version.style.background = themedata.header_icons.new_version.color;
 
-            $icon_prev_settings.style.webkitMaskImage = "url(./static/themes/" + newtheme_select + "/header_icons/" + themedata.header_icons.settings.name + ")";
-            $icon_prev_settings.style.background = themedata.header_icons.logo.color;
+            $icon_prev_logo.style.webkitMaskImage = "url(./static/themes/" + newtheme_select + "/header_icons/" + themedata.header_icons.logo.name + ")";
+            $icon_prev_logo.style.background = themedata.header_icons.logo.color;
 
             //buttons
             $action_device.style.backgroundColor = themedata.objects.action.backgroundColor;
@@ -420,6 +420,8 @@ window.addEventListener('load', function () {
                     ////console.log(data.background_list);
                     if (data.status == true) {
                         $("#theme-theme-select option[value='" + newtheme_select + "']").remove();
+                        $select_theme.value = "default";
+                        set_preview_theme();
                         //console.log(data.status);
                     }
                 });
