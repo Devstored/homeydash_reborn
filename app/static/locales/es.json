@@ -48,27 +48,42 @@
         "noalarm": " No hay sensores activados.",
         "fault": "Hay un problema al cargar sus dispositivos, verifique sus dispositivos y aplicaciones en la aplicación Homey"
     },
-    "settings": {
-        "title": {
-            "language": "Seleccione su idioma",
-            "theme": "Seleccione su tema",
-            "appearance": "Apariencia",
-            "temperature": {
-                "outdoor": "Temperatura exterior",
-                "indoor": "Temperatura interior"
-            },
-            "brightnessdevice": "Dispositivo de brillo"
-        },
-        "appearance": {
-            "logo": "Logo (url)",
-            "background": "Fondo (url)",
-            "opacity": "opacidad de fondo",
-            "clock": "Mostrar reloj",
-            "zoom": "Cerca"
-        },
-        "errors": {
-            "logo": "Por favor arregle la url del logo",
-            "background": "Por favor arregle la url de fondo"
-        }
-    }
+    "settings": {	
+        "title": {	
+            "language": "Select your language",	
+            "format": "Select your format",	
+            "appearance": "Appearance",	
+            "temperature": {	
+                "outdoor": "Outdoor temperature",	
+                "indoor": "Indoor temperature"	
+            },	
+            "brightnessdevice": "Brightness device"	
+        }	
+    },	
+    "theme": {	
+        "title": {	
+            "theme": "Please choose your theme",	
+            "interval_bg": "Switching speed (hours)",	
+            "import": "Import a theme"	
+        },	
+        "information": {	
+            "autor": "Autor : ",	
+            "homeyForumProfil": "Homey profil : ",	
+            "createDate": "Date of création : ",	
+            "version": "Version : ",	
+            "dashVersionMin": "Compatibility : "	
+        },	
+        "appearance": {	
+            "opacity": "Background opacity",	
+            "clock": "Show clock",	
+            "username": "Show your name",	
+			"activ_audio_open": "Activating start sound",	
+			"activ_audio_clic": "Activating click sound",	
+            "zoom": "Zoom"	
+        },	
+        "audios": {	
+            "audioopen": "(audio) Opening :",	
+            "audioclic": "(audio) Button :"	
+        }	
+    }	
 }

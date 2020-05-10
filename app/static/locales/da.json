@@ -47,27 +47,42 @@
         "alarm": " er aktiveret af alarm.",
         "noalarm": " Der er ingen sensorer som er aktiveret af alarm."
     },
-    "settings": {
-        "title": {
-            "language": "Vælg dit sprog",
-            "theme": "Vælg dit tema",
-            "appearance": "Udseende",
-            "temperature": {
-                "outdoor": "Udetemperatur",
-                "indoor": "Indendørs temperatur"
-            },
-            "brightnessdevice": "Lysstyrke enhed"
-        },
-        "appearance": {
-            "logo": "Logo (url)",
-            "background": "Baggrund (url)",
-            "opacity": "Baggrundsopacitet",
-            "clock": "Vis ur",
-            "zoom": "Zoom"
-        },
-        "errors": {
-            "logo": "Ret venligst logoadressen",
-            "background": "Ret venligst baggrundsadressen"
-        }
-    }
+    "settings": {	
+        "title": {	
+            "language": "Select your language",	
+            "format": "Select your format",	
+            "appearance": "Appearance",	
+            "temperature": {	
+                "outdoor": "Outdoor temperature",	
+                "indoor": "Indoor temperature"	
+            },	
+            "brightnessdevice": "Brightness device"	
+        }	
+    },	
+    "theme": {	
+        "title": {	
+            "theme": "Please choose your theme",	
+            "interval_bg": "Switching speed (hours)",	
+            "import": "Import a theme"	
+        },	
+        "information": {	
+            "autor": "Autor : ",	
+            "homeyForumProfil": "Homey profil : ",	
+            "createDate": "Date of création : ",	
+            "version": "Version : ",	
+            "dashVersionMin": "Compatibility : "	
+        },	
+        "appearance": {	
+            "opacity": "Background opacity",	
+            "clock": "Show clock",	
+            "username": "Show your name",	
+			"activ_audio_open": "Activating start sound",	
+			"activ_audio_clic": "Activating click sound",	
+            "zoom": "Zoom"	
+        },	
+        "audios": {	
+            "audioopen": "(audio) Opening :",	
+            "audioclic": "(audio) Button :"	
+        }	
+    }	
 }

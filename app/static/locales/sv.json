@@ -48,27 +48,42 @@
         "noalarm": " Det är inga sensorer med alarm.",
         "fault": "Det gick inte att ladda dina enheter. Kontrollera dina enheter och appar i Homeyappen"
     },
-    "settings": {
-        "title": {
-            "language": "Välj språk",
-            "theme": "Välj ditt tema",
-            "appearance": "Utseende",
-            "temperature": {
-                "outdoor": "Utetemperatur",
-                "indoor": "Inomhus temperatur"
-            },
-            "brightnessdevice": "Ljusstyrka enhet"
-        },
-        "appearance": {
-            "logo": "Logo (url)",
-            "background": "Bakgrund (url)",
-            "opacity": "Bakgrundsopacitet",
-            "clock": "Visa klocka",
-            "zoom": "Zoom"
-        },
-        "errors": {
-            "logo": "Vänligen fixa logoadressen",
-            "background": "Vänligen fixa bakgrundsadressen"
-        }
-    }
+    "settings": {	
+        "title": {	
+            "language": "Select your language",	
+            "format": "Select your format",	
+            "appearance": "Appearance",	
+            "temperature": {	
+                "outdoor": "Outdoor temperature",	
+                "indoor": "Indoor temperature"	
+            },	
+            "brightnessdevice": "Brightness device"	
+        }	
+    },	
+    "theme": {	
+        "title": {	
+            "theme": "Please choose your theme",	
+            "interval_bg": "Switching speed (hours)",	
+            "import": "Import a theme"	
+        },	
+        "information": {	
+            "autor": "Autor : ",	
+            "homeyForumProfil": "Homey profil : ",	
+            "createDate": "Date of création : ",	
+            "version": "Version : ",	
+            "dashVersionMin": "Compatibility : "	
+        },	
+        "appearance": {	
+            "opacity": "Background opacity",	
+            "clock": "Show clock",	
+            "username": "Show your name",	
+			"activ_audio_open": "Activating start sound",	
+			"activ_audio_clic": "Activating click sound",	
+            "zoom": "Zoom"	
+        },	
+        "audios": {	
+            "audioopen": "(audio) Opening :",	
+            "audioclic": "(audio) Button :"	
+        }	
+    }	
 }

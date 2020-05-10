@@ -1,74 +1,89 @@
 {
-    "favoriteflows": "Favoritisierte Flows",
-    "favoritedevices": "Favorisierte Geräte",
-    "alarms": "Alarme",
+    "favoriteflows": "Flow favoriten",
+    "favoritedevices": "Lieblingsgeräte",
+    "alarms": "Alarm",
     "schedules": {
         "weekdays": "wochentage",
         "weekend": "wochenende",
         "alldays": "alle tage"
     },
     "text" : {
-        "good": "Gute",
-        "evening": "n Abend",
-        "afternoon": "n Nachmittag",
-        "morning": "n Morgen",
-        "night": " Nacht",
-        "today": "Heute ist ",
+        "good": "Gute ",
+        "evening": "n abend",
+        "afternoon": "n nachmittag",
+        "morning": "n morgen",
+        "night": "nacht",
+        "today": " Heute ist ",
         "the": "der",
         "of": ""
     },
     "notification": {
         "title": "Letzte Benachrichtigungen",
-        "nonotification": "Es gibt keine Benachrichtigungen"
+        "nonotification": "Es git keine Benachrichtigungen"
     },
     "weather": {
         "title": "Wetterinformationen für ",
-        "temperature": "Die aktuelle Temperatur beträgt ",
-        "degrees": " Grad, ",
-        "humidity": "die Luftfeuchtigkeit beträgt ",
-        "pressure": "% und der Druck beträgt ",
+        "temperature": "Die aktuelle temperatur ist ",
+        "degrees": " grad, ",
+        "humidity": "die luftfeuchtigkeit steht bei ",
+        "pressure": "% und der atmosphärischer druck ist ",
         "mbar": " mbar"
     },
     "sunevent": {
-        "presunrise": "Sonnenaufgang ist um ",
-        "postsunrise": "Sonnenaufgang war um ",
-        "presunset": " Sonnenuntergang ist um ",
-        "postsunset": " Sonnenuntergang war um "
+        "presunrise": "Der sonnenaufgang ist um ",
+        "postsunrise": "Die sonne ist um  ",
+        "presunset": " sonenuntergang ist um ",
+        "postsunset": " sonenuntergang war um "
     },
     "battery": {
-        "title": "Batterieinformation",
-        "in": " in ",
+        "title": "Batterieinformationen",
+        "in": " in der zone ",
         "has": " hat ",
-        "left": "% verbleibend"
+        "left": "% verbleibende batterie"
     },
     "sensor": {
-        "title": "Sensorinformation",
-        "in": " in ",
-        "alarm": " ist im Alarmzustand.",
-        "noalarm": " Es gibt keine Sensoren in Alarmzustand.",
-        "fault": "Es gibt ein Problem beim laden der Geräte, bitte überprüfe die Geräte und Apps in der Homey App"
+        "title": "Sensorinformationen",
+        "in": " der zone ",
+        "alarm": " Ist im Alarmzustand.",
+        "noalarm": " Es gibt keine sensoren im Alarmzustand.",
+        "fault": "Es gibt einen problem beim laden der geräte. Bitte überprüfen sie die geräde und die apps in der Homey app."
     },
     "settings": {
         "title": {
-            "language": "Wählen Sie Ihre Sprache",
-            "theme": "Wählen Sie Ihr Thema",
-            "appearance": "aussehen",
+            "language": "Wählen sie ihre Sprache",
+            "format": "Whälen sie bitte ihren Thema",
+            "appearance": "Aussehen",
             "temperature": {
                 "outdoor": "Außentemperatur",
                 "indoor": "Innentemperatur"
             },
             "brightnessdevice": "Helligkeitsgerät"
+        }
+    },
+    "theme": {
+        "title": {
+            "theme": "Whälen sie ihren Thema",
+            "interval_bg": "Bildlaufgeschwindigkeit (Stunden)",
+            "import": "Importieren sie ein Thema"
+        },
+        "information": {
+            "autor": "Autor : ",
+            "homeyForumProfil": "Homey Profil : ",
+            "createDate": "Erstellungsdatum : ",
+            "version": "Version : ",
+            "dashVersionMin": "Kompatibilität : "
         },
         "appearance": {
-            "logo": "Logo (url)",
-            "background": "Hintergrund (url)",
             "opacity": "Hintergrundopazität",
             "clock": "Uhr anzeigen",
-            "zoom": "Zoom"
+            "username": "Zeigen Sie Ihren Namen an",
+            "activ_audio_open": "Aktivieren Sie das Boot-Audio",
+            "activ_audio_clic": "Aktivieren Sie Knopf Audio",
+            "zoom": "Zoomen"
         },
-        "errors": {
-            "logo": "Bitte korrigieren Sie die Logo-URL",
-            "background": "Bitte korrigieren Sie die Hintergrund-URL"
+        "audios": {
+            "audioopen": "(audio) Öffnung :",
+            "audioclic": "(audio) Knopf :"
         }
     }
 }
