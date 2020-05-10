@@ -1,0 +1,217 @@
+<html>
+    <head>
+        <title>HomeyDash - Reborn</title>
+    
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" type="text/css" href="../static/css/homeydash.theme.css">
+        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' id='link'>
+
+        <script type="text/javascript" src="../static/js/jquery-3.5.0.min.js"></script>
+        <script type="text/javascript" src="../static/js/homeydash.helpers.js"></script>
+        <script type="text/javascript" src="../static/js/homeydash.theme.js"></script>
+    </head>
+    <body id="body-theme">
+        <div id="left-col">
+
+            <div class="select-description">
+                <span id="theme_autor_translate">Autor : </span><b><span id="theme_autor"></span></b>
+            </div>
+            <p></p>
+            <div class="select-description">
+                <span id="theme_homeyprofil_translate">Homey Profil : </span><b><a id="homey_profil"></a></b>
+            </div>
+            <p></p>
+            <div class="select-description">
+                <span id="theme_created_translate">Created at : </span><b><span id="theme_created" ></span></b>
+            </div>
+            <p></p>
+            <div class="select-description">
+                <span id="theme_version_translate">Version : </span><b><span id="theme_version" ></span></b>
+            </div>
+            <p></p>
+            <div class="select-description">
+                <span id="theme_compatible_translate">Compatibility : </span><b><span id="theme_compatibility" ></span></b>
+            </div>
+
+            <p></p>
+            <div class="select-description">
+                <span id="audio_theme_open_translate">(audio) Open : </span><b><span id="audio_theme" ></span></b>
+                <div class="appearance-buttons">
+                    <div id="btn-play-theme-open"></div>
+                </div>
+            </div>
+            <p></p>
+            <div class="select-description">
+                <span id="audio_theme_clic_translate">(audio) Clic : </span><b><span id="audio_clic"></span></b>
+                    <div class="appearance-buttons">
+                        <div id="btn-play-theme-clic"></div>
+                </div>
+            </div>
+    </div>
+        <div id="right-col">
+            
+            <div id="content">
+                <div id="row0" class="roworder">
+                        <div class="icon_prev">
+                            <div id="icon_prev_new_version" class="new_version"></div>
+                        </div>
+                        <div class="icon_prev">
+                            <div id="icon_prev_battery" class="battery"></div>
+                        </div>
+                        <div class="icon_prev">
+                            <div id="icon_prev_notification" class="notification"></div>
+                        </div>
+                        <div class="icon_prev">
+                            <div id="icon_prev_information" class="information"></div>
+                        </div>
+                        <div class="icon_prev">
+                            <div id="icon_prev_theme" class="theme_icon"></div>
+                        </div>
+                        <div class="icon_prev">
+                            <div id="icon_prev_settings" class="settings"></div>
+                        </div>
+                        <div class="icon_prev">
+                            <div id="icon_prev_logo" class="logo"></div>
+                        </div>
+                        <p></p>
+
+                            <div id="prev_text">Hello Dino !</div>
+                
+                </div>
+
+                <div id="row1" class="roworder">
+                    <div id="flow_device" class="flow">
+                        <div class="play"></div><div id="flow_device_name" class="name">Flow</div>
+                    </div>
+                </div>
+
+                <div id="row2" class="roworder">
+                    <div id="action_device" class="device on">
+                        <div class="name" id="action_device_name">Device</div>
+                    </div>
+
+                    <div id="action_device_inactive" class="device">
+                        <div class="name" id="flow_device_inactive_name">Inactive</div>
+                    </div>
+                </div>
+
+                <div id="row3" class="roworder">
+                    <div id="alarm_device" class="alarm on">
+                        <div class="value" id="alarm_device_value">12:00</div>
+                        <div class="name" id="alarm_device_name">Alarm</div>
+                        <div class="schedule" id="alarm_device_schedule">weekdays</div>
+                    </div>
+
+                    <div id="alarm_device_inactive" class="alarm">
+                        <div class="value" id="alarm_device_inactive_value">17:00</div>
+                        <div class="name" id="alarm_device_inactive_name">Alarm</div>
+                        <div class="schedule" id="alarm_device_inactive_schedule">weekdays</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div id="appearance">
+
+                <br />
+                <form id="form_theme_file" method="POST" action="" enctype = "multipart/form-data">
+                <div id="theme_title_import_translate" class="appearance-description">Import new theme</div>
+                
+ 
+                <input   type="file" name="themefile" id="themefile" accept="zip,application/octet-stream,application/zip,application/x-zip,application/x-zip-compressed">
+                <div class="appearance-buttons">
+                   
+                    <div id="btn-validate-theme" name="btn-validate-theme"></div>
+
+                </div>
+                </form>
+
+                <div id="theme-theme-title" class="appearance-description">Select your theme</div>
+                <select id="theme-theme-select" class="select">
+                    {% for theme in list_themes %}
+                    <option value="{{theme}}">{{theme}}</option>
+                    {% endfor %}
+                </select>
+                <div class="appearance-buttons">
+                    <div id="btn-delete-theme"></div>
+                </div>
+                <div>
+                    <div id="theme_interval_translate" class="appearance-description">
+                        Interval time (houre)
+                    </div>
+                    <div class="appearance-input">
+                        <input type="number" id="theme_interval_time" value="1" min="1" step="1" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+                    </div>
+                </div>
+
+     
+                <div>
+                    <div id="appearance-opacity" class="appearance-description">
+                        Background opacity
+                    </div>
+                    <div class="slidecontainer">
+                        <input type="range" min="0" max="100" value="50" class="slider" id="opacity-background">
+                    </div>
+                </div>
+
+
+                <div id="setting-showtime">
+                    <div id="appearance-clock" class="appearance-description">
+                        Show clock
+                    </div>
+                    <label class="form-switch">
+                        <input id="switch-show-time" type="checkbox">
+                        <i></i>
+                    </label>
+                </div>
+
+                <div id="setting-showUsername">
+                    <div id="appearance-show-username" class="appearance-description">
+                        Show Username
+                    </div>
+                    <label class="form-switch">
+                        <input id="switch-show-username" type="checkbox">
+                        <i></i>
+                    </label>
+                </div>
+
+
+                <div id="setting-activ_audio_open">
+                    <div id="appearance-activ_audio_open" class="appearance-description">
+                        Activate audio startup
+                    </div>
+                    <label class="form-switch">
+                        <input id="switch-audio-open" type="checkbox">
+                        <i></i>
+                    </label>
+                </div>
+
+                <div id="setting-activ_audio_clic">
+                    <div id="appearance-activ_audio_clic" class="appearance-description">
+                        Activate audio startup
+                    </div>
+                    <label class="form-switch">
+                        <input id="switch-audio-clic" type="checkbox">
+                        <i></i>
+                    </label>
+                </div>
+
+                <div id="settings-zoom">
+                    <div id="appearance-zoom" class="appearance-description">
+                        Zoom
+                    </div>
+                    <div class="slidecontainer">
+                        <input type="range" min="50" max="100" value="100" class="slider" id="zoom-content">
+                    </div>
+                </div>
+                <div id="preview"></div>
+            </div>
+
+
+        <div id="version"></div>
+
+                <div class="appearance-buttons">
+                    <a id="btn-paypal"  href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K733SALXBEZEC&source=url" target="_blank"></a>
+                </div>
+    </body>
+</html>

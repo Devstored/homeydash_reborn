@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>HomeyDash - Reborn</title>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.png') }}" type="image/png" />
+  <link rel="apple-touch-icon" href="{{ url_for('static', filename='img/favicon.png') }}">
+
+
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' id='link'>
+  <link rel="stylesheet" type="text/css" href="../static/css/config.css">
+
+
+
+  <script type="text/javascript" src="//cdn.athom.com/athom-api/2.1.186/athom-api.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+  <script type="text/javascript" src="../static/js/polyfill.js"></script>
+  <script type="text/javascript" src="../static/js/jquery-3.5.0.min.js"></script>
+  <script type="text/javascript" src="../static/js/later.js"></script>
+  <script type="text/javascript" src="../static/js/homeydash.helpers.js"></script>
+  <script type="text/javascript" src="../static/js/config.js"></script>
+
+</head>
+
+<body id="body">
+  <br /><br />
+
+  <center>
+    <div class="appearance-buttons">
+      <div id="icon-one"></div>
+    </div>
+    Indicate your name.
+    <p></p>
+
+    <input id="username" class="input" placeholder="Luke"></input>
+    <br /><br />
+    <br /><br />
+
+
+    <div class="appearance-buttons">
+      <div id="icon-two"></div>
+    </div>
+    Login at : <a href='https://homey.ink' target="_blank">homey.ink</a> and past Token.
+    <p></p>
+
+    <textarea id="token" placeholder="token..." rows="5" cols="115"></textarea>
+    <br /><br />
+    <br /><br />
+
+    <div class="appearance-buttons">
+      <div id="icon-three"></div>
+    </div>
+    Choose the language.
+    <p></p>
+    <select id="language_selected" class="select">
+      {% for language in list_languages %}
+      <option value="{{language}}">{{language}}</option>
+      {% endfor %}
+    </select>
+
+
+    <br /><br />
+    <br /><br />
+
+    <div class="appearance-buttons">
+      <div id="icon-four"></div>
+    </div>
+    Choose the theme (refresh the page if list is empty).
+    <p></p>
+    <select id="theme_selected" class="select">
+      {% for theme in list_themes %}
+      <option value="{{theme}}">{{theme}}</option>
+      {% endfor %}
+    </select>
+
+
+    <br /><br />
+    <br /><br />
+
+    <div class="appearance-buttons">
+      <div id="icon-five"></div>
+    </div>
+    Validate.
+    <p></p>
+    <button id="validate_btn" class="btn">Validate</button>
+    <br /><br />
+    <div id="msgform" class="isa_error">
+      <div id="msg"></div>
+    </div>
+
+  </center>
+</body>
+
+</html>

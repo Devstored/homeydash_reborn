@@ -1,0 +1,20 @@
+{
+    "lang": "en",
+    "outdoortemperature": "",
+    "indoortemperature": "",
+    "homeydashdevicebrightness": "",
+    "order": "1,2,3",
+    "theme": "default",
+    "interval_bg": "0",
+    "version": "1.0.0",
+    "backgroundopacity": "50",
+    "showtime": "false",
+    "background_progress": "",
+    "zoom": "0.6",
+    "name": "",
+    "token": "",
+    "username": "",
+    "showusername": "false",
+    "activ_audio_open": "true",
+    "activ_audio_clic": "true"
+}

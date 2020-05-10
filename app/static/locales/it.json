@@ -1,0 +1,74 @@
+{
+    "favoriteflows": "Scene Preferite",
+    "favoritedevices": "Dispositivi Preferiti",
+    "alarms": "Allarme",
+    "schedules": {
+        "weekdays": "questi giorni della settimana",
+        "weekend": "fine settimana",
+        "alldays": "ogni giorno"
+    },
+    "text" : {
+        "good": "Buon ",
+        "evening": "sera",
+        "afternoon": "pomeriggio",
+        "morning": "giorno",
+        "night": "notte",
+        "today": "Oggi è ",
+        "the": "",
+        "of": ""
+    },
+    "notification": {
+        "title": "Notifiche recenti",
+        "nonotification": "Non ci sono notifiche"
+    },
+    "weather": {
+        "title": "Informazioni meteo per ",
+        "temperature": "La temperatura corrente è ",
+        "degrees": "°C, ",
+        "humidity": "l’umidità è ",
+        "pressure": "% e la pressione è ",
+        "mbar": " mbar"
+    },
+    "sunevent": {
+        "presunrise": "Il sole sorgerà alle ",
+        "postsunrise": "Il sole è sorto alle ",
+        "presunset": " e tramonterà alle ",
+        "postsunset": " ed è tramontato alle "
+    },
+    "battery": {
+        "title": "Informazioni Stato Batterie",
+        "in": " in ",
+        "has": " è al ",
+        "left": "% di carica residua."
+    },
+    "sensor": {
+        "title": "Informazioni Sensori",
+        "in": " in ",
+        "alarm": " è in Allarme.",
+        "noalarm": " Nessun sensore in allarme.",
+        "fault": "Ops! C'è stato un problema nel caricamento dei dispositivi. Per favore controlla i dispositivi e le applicazioni in Homey."
+    },
+    "settings": {
+        "title": {
+            "language": "Seleziona Lingua",
+            "theme": "Seleziona Tema",
+            "appearance": "Aaspetto",
+            "temperature": {
+                "outdoor": "Temperatura Esterna",
+                "indoor": "Temperatura Interna"
+            },
+            "brightnessdevice": "Luminosità Dispositivo"
+        },
+        "appearance": {
+            "logo": "Logo (url)",
+            "background": "Sfondo (url)",
+            "opacity": "Opacità Sfondo",
+            "clock": "Visualizza Orologio",
+            "zoom": "Zoom"
+        },
+        "errors": {
+            "logo": "Errore: correggi l’indirizzo URL per il logo",
+            "background": "Errore: correggi l’indirizzo URL per lo sfondo"
+        }
+    }
+}

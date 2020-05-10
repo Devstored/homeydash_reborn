@@ -1,0 +1,89 @@
+{
+    "favoriteflows": "Flux préférés",
+    "favoritedevices": "Appareils favoris",
+    "alarms": "Les alarmes",
+    "schedules": {
+        "weekdays": "jours de la semaine",
+        "weekend": "weekend",
+        "alldays": "tous les jours"
+    },
+    "text" : {
+        "good": "Bonne ",
+        "evening": "soirée",
+        "afternoon": "après-midi",
+        "morning": "matinée",
+        "night": "nuit",
+        "today": " Aujourd'hui nous sommes ",
+        "the": "le",
+        "of": "de"
+    },
+    "notification": {
+        "title": "Notifications récentes",
+        "nonotification": "Pas de nouvelles notifications"
+    },
+    "weather": {
+        "title": " Informations météo pour ",
+        "temperature": "La température actuelle est ",
+        "degrees": " degrés, ",
+        "humidity": "le taux d'humidité est de ",
+        "pressure": "% et la pression atmosphérique est de ",
+        "mbar": " mbar"
+    },
+    "sunevent": {
+        "presunrise": "Le soleil se lèvera à ",
+        "postsunrise": "Le soleil s'est levé à ",
+        "presunset": " et levera à ",
+        "postsunset": " et couchera à "
+    },
+    "battery": {
+        "title": "Informations batteries",
+        "in": " dans la zone ",
+        "has": " à ",
+        "left": "% de batterie"
+    },
+    "sensor": {
+        "title": "Informations capteurs",
+        "in": " dans la zone ",
+        "alarm": " est en état d'alarme.",
+        "noalarm": " Il n'y a pas de capteur en état d'alarme.",
+        "fault": "Un problème est survenu lors du chargement de vos appareils. Veuillez vérifier vos appareils et vos applications dans l’application Homey."
+    },
+    "settings": {
+        "title": {
+            "language": "Choisissez votre langue",
+            "format": "Choisissez votre format",
+            "appearance": "Apparence",
+            "temperature": {
+                "outdoor": "température extérieure",
+                "indoor": "Température intérieure"
+            },
+            "brightnessdevice": "Dispositif de luminosité"
+        }
+    },
+    "theme": {
+        "title": {
+            "theme": "Choisissez votre thème",
+            "interval_bg": "Vitesse de défilement (heure)",
+            "import": "Importer un thème"
+        },
+        "information": {
+            "autor": "Auteur : ",
+            "homeyForumProfil": "Profil Homey : ",
+            "createDate": "Date de création : ",
+            "version": "Version : ",
+            "dashVersionMin": "Compatibilité : "
+        },
+        "appearance": {
+            "opacity": "opacité du fond",
+            "clock": "Afficher l'horloge",
+            "username": "Afficher votre nom",
+            "activ_audio_open": "Activer l'audio de démarrage",
+            "activ_audio_clic": "Activer l'audio du clic",
+            "zoom": "Zoom"
+        },
+        "audios": {
+            "audioopen": "(audio) Ouverture :",
+            "audioclic": "(audio) Bouton :"
+        }
+    }
+}
